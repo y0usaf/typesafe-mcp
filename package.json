@@ -1,5 +1,5 @@
 {
-  "name": "typesafe-mcp",
+  "name": "@y0usaf/typesafe-mcp",
   "version": "0.1.0",
   "description": "MCP server that gives any coding agent access to TypeSafe's Jev System One decision model",
   "type": "module",

@@ -6,13 +6,13 @@ MCP server for [TypeSafe](https://docs.typesafe.ai) Jev — typed decisions
 ## Install
 
 ```bash
-claude mcp add typesafe -e TYPESAFE_API_KEY=... -- npx -y typesafe-mcp
+claude mcp add typesafe -e TYPESAFE_API_KEY=... -- npx -y @y0usaf/typesafe-mcp
 ```
 
 Or any MCP config:
 
 ```json
-{ "mcpServers": { "typesafe": { "command": "npx", "args": ["-y", "typesafe-mcp"], "env": { "TYPESAFE_API_KEY": "..." } } } }
+{ "mcpServers": { "typesafe": { "command": "npx", "args": ["-y", "@y0usaf/typesafe-mcp"], "env": { "TYPESAFE_API_KEY": "..." } } } }
 ```
 
 Get a key: https://console.typesafe.ai/keys
