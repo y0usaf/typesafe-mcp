@@ -1,0 +1,31 @@
+{
+  "name": "typesafe-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that gives any coding agent access to TypeSafe's Jev System One decision model",
+  "type": "module",
+  "bin": {
+    "typesafe-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "review": "node scripts/review.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "keywords": [
+    "mcp",
+    "typesafe",
+    "jev",
+    "system-one",
+    "llm",
+    "agent"
+  ],
+  "license": "MIT"
+}
